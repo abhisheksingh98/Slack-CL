@@ -1,23 +1,19 @@
-import logo from './logo.svg';
 import './App.css';
+import Header from './Header';
+import Sidebar from './Sidebar';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    //BEM naming convention
+    <div className="app">
+      <h1>Let's build the Slack Clone</h1>
+      {/*Header */}
+
+      <Header/>
+      {/*Sidebar */}
+      <Sidebar/>
+
+      {/*React Router -> Chat Screen */}
     </div>
   );
 }

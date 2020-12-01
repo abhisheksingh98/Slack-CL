@@ -3,6 +3,7 @@ import StarBorderOutlinedIcon  from '@material-ui/icons/StarBorderOutlined';
 import React, { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom';
 import './Chat.css'
+import ChatInput from './ChatInput';
 import db from './firebase';
 import Message from './Message';
 
@@ -56,6 +57,9 @@ function Chat() {
                     />
                 ))}
             </div>
+
+                <ChatInput channelName={roomDetails?.name} channelId = {roomDetails?.id} />
+
         </div>
     )
 }

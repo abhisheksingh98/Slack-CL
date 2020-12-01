@@ -1,6 +1,6 @@
 # Slack Clone
 
-![Slack Clone Demo](Demo/slack.mp4)
+![Slack Clone Demo](Demo/slack.gif)
 
 ## Available Scripts
 

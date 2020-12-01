@@ -35,7 +35,7 @@ function Sidebar() {
             <div className="sidebar__header">
 
             <div className="sidebar__info">
-                <h2>Abhishek's Dev Community</h2>
+                <h2>Abhi's Dev Community</h2>
                 <h3>
                     <FiberManualRecordIcon />
                     Abhishek Singh
